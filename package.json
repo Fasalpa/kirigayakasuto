@@ -1,0 +1,28 @@
+{
+  "name": "kirigayakasuto",
+  "version": "1.0.0",
+  "description": "prueba de creación de paquete npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fasalpa/kirigayakasuto.git"
+  },
+  "keywords": [],
+  "author": "Fasalpa <psfr97@gmail.com",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Fasalpa/kirigayakasuto/issues"
+  },
+  "homepage": "https://github.com/Fasalpa/kirigayakasuto#readme",
+  "bin": {
+    "kirigayakasuto": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
